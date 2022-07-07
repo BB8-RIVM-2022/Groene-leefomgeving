@@ -34,17 +34,14 @@ In deze repo onderzoeken we verschillende openbare Databronnen om aan de hand va
 - python Installation : 
     
 
-------------------------------
-Conda Package Manager:
-------------------------------
-conda update -c conda-forge earthengine-api
-------------------------------
+- Conda Package Manager:
+    conda update -c conda-forge earthengine-api
 
----------------------------
-Python Package Installer: 
--------------------------
-pip install earthengine-api --upgrade
-------------------------- 
+
+- Python Package Installer: 
+
+    pip install earthengine-api --upgrade
+ 
 
 - Meer info :
     https://developers.google.com/earth-engine/guides/python_install 
@@ -60,5 +57,5 @@ pip install earthengine-api --upgrade
     2. in het bovenste panel ga naar "Plug-ins"
     3. vervolgens "Manage and Install Plugins".
     4. klik op het tabblad Alles en zoek naar "PDOK services plugin.
-    5. pulg-in installeren.+ 
+    5. pulg-in installeren.
     
