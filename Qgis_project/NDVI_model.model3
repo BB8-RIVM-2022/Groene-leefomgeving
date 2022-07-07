@@ -72,13 +72,13 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="gemeenten_f41bbe64_7317_4dee_a71e_b9aa81538160"/>
+            <Option type="QString" name="static_value" value="gemeenten_3054563b_f443_4a0f_a6fb_a27b7084e0e3"/>
           </Option>
         </Option>
         <Option type="List" name="INPUT_RASTER">
           <Option type="Map">
             <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="ndvi_e4d76eec_5bf7_4f6c_98a3_b1bd4508f006"/>
+            <Option type="QString" name="static_value" value="ndvi_07c3cbc7_593e_457f_ae80_e81fee52e88d"/>
           </Option>
         </Option>
         <Option type="List" name="RASTER_BAND">
@@ -170,13 +170,13 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="buurten_fc79eaf7_ddb6_4481_bc56_924b83d71abd"/>
+            <Option type="QString" name="static_value" value="buurten_862db9e3_a497_49aa_8ecf_2f4bd8d5c28c"/>
           </Option>
         </Option>
         <Option type="List" name="INPUT_RASTER">
           <Option type="Map">
             <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="ndvi_e4d76eec_5bf7_4f6c_98a3_b1bd4508f006"/>
+            <Option type="QString" name="static_value" value="ndvi_07c3cbc7_593e_457f_ae80_e81fee52e88d"/>
           </Option>
         </Option>
         <Option type="List" name="RASTER_BAND">

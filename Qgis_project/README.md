@@ -1,3 +1,50 @@
-# Tijdreeks NDVI analyse en voorspelling
+# Qgis Project
 
-Normalized Difference Vegetation Index (NDVI) is een van satellietbeelden afgeleide indicator die de toestand van de plantgezondheid meet. NDVI is direct gerelateerd aan de droogteconditie. Tijdens het regenseizoen wordt een hogere NDVI waargenomen (maximum is +1) terwijl in het droge seizoen de NDVI daalt (minimum is -1). NDVI wordt seizoensgebonden van aard gezien, maar door klimaatverandering worden ook opwaartse/neerwaartse veranderingen door de jaren heen waargenomen. Als u de trend en seizoenscyclus van NDVI vergevorderd kent, kan dit helpen bij het beter plannen en inzetten van middelen voor de lokale en nationale belanghebbenden. Er zijn veel bekende en onbekende parameters die NDI beïnvloeden. Van de vele benaderingen zou men machine learning-modellen trainen met eerdere tdata om voorspellingen te krijgen. Dit notitieboek beschrijft twee van de machine learning-benaderingen voor NDVI-voorspelling.
+
+Deze file bevat werkwijze om vegation tot buurt en gemeenten niveau te halen. 
+
+Daarvoor zallen we hier gebruik maken van Qgis software :
+
+**Wat is Qgis ?**
+
+Qgisis een open source geografisch informatiesysteem (GIS). Het programma is beschikbaar voor verschillende platforms en besturingssystemen. Men kan geografische gegevens bekijken, bewerken en analyseren. 
+
+- Meer info : 
+    https://www.qgis.org/nl/site/
+
+**Download Qgis** 
+    https://qgis.org/en/site/forusers/download.html 
+
+
+**Benodigdheden :**
+
+    -Qgis software
+    - Gemeenten en buurten grenzen. ze zijn in deze file te vinden als .gpkg.
+    - Stalietbeeld(Tct of ndvi).
+    - Import model (tct of ndvi). 
+
+
+**How to run Tasseld Cap** 
+
+    1. Start Tasseld Cap project "TasseldCap.qgz".
+    2. import stalietbeel "Nederland_Tasseldcap.tif".
+    3. import gemeenten.gpkg en buurten.gpkg.
+    4. Klick op Processing > Graphical Modeler. 
+    5. Op Graphical Modeler window Klick Model > Open Model. Dan selecteer je "TasseldCap.model".
+    6. Run Model. 
+
+
+
+**How to run NDVI** 
+
+    1. Start NDVI project "NDVI.qgz".
+    2. import stalietbeel "ndvi.tif".
+    3. import gemeenten.gpkg en buurten.gpkg.
+    4. Klick op Processing > Graphical Modeler. 
+    5. Op Graphical Modeler window Klick Model > Open Model. Dan selecteer je "ndvi.model".
+    6. Run Model. 
+
+
+
+
+

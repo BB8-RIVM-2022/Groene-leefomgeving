@@ -62,13 +62,13 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="gemeenten_64dba206_6d9c_489c_b84c_9fa413ab3beb"/>
+            <Option type="QString" name="static_value" value="gemeenten_d2b7b8f4_61ce_4865_8205_5f12a58f9e8c"/>
           </Option>
         </Option>
         <Option type="List" name="INPUT_RASTER">
           <Option type="Map">
             <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="Nederland_tasseledcap_86f198bd_7057_41e6_b2dd_777768701ccc"/>
+            <Option type="QString" name="static_value" value="Nederland_tasseledcap_4c5ec59d_17f7_4031_b1de_cb4bc9e1d147"/>
           </Option>
         </Option>
         <Option type="List" name="RASTER_BAND">
@@ -150,13 +150,13 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="buurten_e93dba61_4284_47a5_a143_5be5ef882262"/>
+            <Option type="QString" name="static_value" value="buurten_307a1a67_847d_4099_9355_8e8279018d87"/>
           </Option>
         </Option>
         <Option type="List" name="INPUT_RASTER">
           <Option type="Map">
             <Option type="int" name="source" value="2"/>
-            <Option type="QString" name="static_value" value="Nederland_tasseledcap_86f198bd_7057_41e6_b2dd_777768701ccc"/>
+            <Option type="QString" name="static_value" value="Nederland_tasseledcap_4c5ec59d_17f7_4031_b1de_cb4bc9e1d147"/>
           </Option>
         </Option>
         <Option type="List" name="RASTER_BAND">
@@ -178,7 +178,32 @@
       </Option>
     </Option>
   </Option>
-  <Option name="designerParameterValues"/>
+  <Option type="Map" name="designerParameterValues">
+    <Option type="QgsProcessingOutputLayerDefinition" name="native:zonalstatisticsfb_1:Gemeente_tct_values">
+      <Option type="Map">
+        <Option type="Map" name="create_options">
+          <Option type="QString" name="fileEncoding" value="System"/>
+        </Option>
+        <Option type="Map" name="sink">
+          <Option type="bool" name="active" value="true"/>
+          <Option type="int" name="type" value="1"/>
+          <Option type="QString" name="val" value="TEMPORARY_OUTPUT"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="QgsProcessingOutputLayerDefinition" name="native:zonalstatisticsfb_2:Buurt_tct_vaules">
+      <Option type="Map">
+        <Option type="Map" name="create_options">
+          <Option type="QString" name="fileEncoding" value="System"/>
+        </Option>
+        <Option type="Map" name="sink">
+          <Option type="bool" name="active" value="true"/>
+          <Option type="int" name="type" value="1"/>
+          <Option type="QString" name="val" value="TEMPORARY_OUTPUT"/>
+        </Option>
+      </Option>
+    </Option>
+  </Option>
   <Option name="groupBoxes"/>
   <Option name="help"/>
   <Option type="Map" name="modelVariables">
