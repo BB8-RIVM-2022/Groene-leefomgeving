@@ -8,12 +8,12 @@ In deze repo onderzoeken we verschillende openbare Databronnen om aan de hand va
 
 **Files uitleg:** 
 
-    - *Groene-Leefomgeving.ipynb* : De jupyter notebook waar we uitleg geven over onze databronnen ,methoden en eventueel downloaden van Satelliet  images. 
+    - Groene-Leefomgeving.ipynb : De jupyter notebook waar we uitleg geven over onze databronnen ,methoden en eventueel downloaden van Satelliet  images. 
 
 
-    - *data* : Deze file bevat .CSV data die worden gemaakt door Qgis model (Vegation op gemeenten / buurt niveau). 
+    - data : Deze file bevat .CSV data die worden gemaakt door Qgis model (Vegation op gemeenten / buurt niveau). 
 
-    - *Qgis_project* : Deze file bevat (Tct_model) en (ndvi_model) om vegation op buurt en gemeenten nieavu te berekenen. De modellen zijn ook als .py bestanden te vinden. Er zijn ook buurten.gpkg en gemeenten.gpkg deze zijn buurt en gemeenten grenzen uit PDOK. Verder zijn er Satelliet beelden uit Groene-Leefomgeving.ipynb. 
+    - Qgis_project : Deze file bevat (Tct_model) en (ndvi_model) om vegation op buurt en gemeenten nieavu te berekenen. De modellen zijn ook als .py bestanden te vinden. Er zijn ook buurten.gpkg en gemeenten.gpkg deze zijn buurt en gemeenten grenzen uit PDOK. Verder zijn er Satelliet beelden uit Groene-Leefomgeving.ipynb. 
 
 
 **Benodige liberies :** 
@@ -32,11 +32,16 @@ In deze repo onderzoeken we verschillende openbare Databronnen om aan de hand va
 - API aanvragen : https://signup.earthengine.google.com/ 
 
 - python Installation : 
-    *Conda Package Manager:
--------------------------
+    
+
+------------------------------
+Conda Package Manager:
+------------------------------
 conda update -c conda-forge earthengine-api
--------------------------
-    *Python Package Installer: 
+------------------------------
+
+---------------------------
+Python Package Installer: 
 -------------------------
 pip install earthengine-api --upgrade
 ------------------------- 
@@ -57,4 +62,3 @@ pip install earthengine-api --upgrade
     4. klik op het tabblad Alles en zoek naar "PDOK services plugin.
     5. pulg-in installeren.+ 
     
-image.png
