@@ -34,14 +34,13 @@ In deze repo onderzoeken we verschillende openbare Databronnen om aan de hand va
 - python Installation : 
     
 
-------------------------------
 Conda Package Manager:
 
 ------------------------------
 conda update -c conda-forge earthengine-api
 ------------------------------
 
----------------------------
+
 Python Package Installer: 
 
 
