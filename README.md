@@ -35,18 +35,13 @@ In deze repo onderzoeken we verschillende openbare Databronnen om aan de hand va
     
 
 - Conda Package Manager:
-
--------------------------------
-conda update -c conda-forge earthengine-api
-------------------------------
+    conda update -c conda-forge earthengine-api
 
 
 - Python Package Installer: 
 
-
--------------------------
-pip install earthengine-api --upgrade
-------------------------- 
+    pip install earthengine-api --upgrade
+ 
 
 - Meer info :
     https://developers.google.com/earth-engine/guides/python_install 
